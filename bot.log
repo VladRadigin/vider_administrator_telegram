@@ -1,0 +1,19 @@
+2022-04-16 16:44:26,646 - INFO - Bot is working...
+2022-04-16 16:44:26,646 - INFO - Scheduler started
+2022-04-16 16:44:38,673 - INFO - Received signal 2 (SIGINT), stopping...
+2022-04-16 16:44:38,674 - INFO - Scheduler has been shut down
+2022-04-16 16:44:40,060 - WARNING - Exiting immediately!
+2022-04-16 16:46:05,805 - INFO - Bot is working...
+2022-04-16 16:46:05,806 - INFO - Scheduler started
+2022-04-16 16:46:09,133 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/retr0/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/retr0/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+TypeError: start() takes 1 positional argument but 2 were given
+2022-04-16 16:46:22,219 - INFO - Bot is working...
+2022-04-16 16:46:22,220 - INFO - Scheduler started
+2022-04-16 16:46:26,214 - INFO - Received signal 2 (SIGINT), stopping...
+2022-04-16 16:46:26,215 - INFO - Scheduler has been shut down
+2022-04-16 16:46:27,066 - WARNING - Exiting immediately!
